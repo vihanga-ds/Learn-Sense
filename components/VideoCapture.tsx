@@ -39,7 +39,7 @@ export default function VideoCapture({ onSessionStart, onSessionStop, onEngageme
 
     } catch (error) {
       console.error('Error accessing camera:', error)
-      alert('Could not access camera/microphone. Please check permissions.')
+      alert('Couldnt access camera/microphone. Please check permissions.')
     }
   }
 
